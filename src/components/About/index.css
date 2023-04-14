@@ -1,0 +1,29 @@
+/* Write your CSS code here */
+.about-image {
+  width: 50%;
+}
+.about-heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #551e53;
+  font-weight: 700;
+}
+.about-content {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #555555;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0px;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .about-heading {
+    font-size: 50px;
+  }
+}

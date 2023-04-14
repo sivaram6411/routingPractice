@@ -1,0 +1,21 @@
+/* Write your CSS code here */
+.home-image {
+  width: 50%;
+}
+.home-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #551e53;
+  font-weight: 700;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 50px;
+  }
+}
